@@ -30,19 +30,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="aft-jn-fa6">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="aft-jn-fa6">
                                 <rect key="frame" x="0.0" y="69" width="375" height="534"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="138" id="fer-Mn-qbs" customClass="CategoryCell" customModule="coder_swag" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" rowHeight="138" id="fer-Mn-qbs" customClass="CategoryCell" customModule="coder_swag" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="138"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fer-Mn-qbs" id="9HZ-Ip-79g">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="137.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="138"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="digital" translatesAutoresizingMaskIntoConstraints="NO" id="YgB-UD-hag">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="137.5"/>
+                                                    <rect key="frame" x="0.0" y="3" width="375" height="131.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOODIES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="be7-iQ-RiX">
                                                     <rect key="frame" x="109" y="55" width="156" height="28"/>
@@ -56,11 +56,11 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="bottom" secondItem="YgB-UD-hag" secondAttribute="bottom" id="CYo-nV-PEK"/>
-                                                <constraint firstAttribute="trailing" secondItem="YgB-UD-hag" secondAttribute="trailing" id="E5w-z0-p3H"/>
-                                                <constraint firstItem="YgB-UD-hag" firstAttribute="top" secondItem="9HZ-Ip-79g" secondAttribute="top" id="Ic4-7O-19W"/>
                                                 <constraint firstItem="YgB-UD-hag" firstAttribute="leading" secondItem="9HZ-Ip-79g" secondAttribute="leading" id="STo-Ei-MQH"/>
                                                 <constraint firstItem="be7-iQ-RiX" firstAttribute="centerX" secondItem="9HZ-Ip-79g" secondAttribute="centerX" id="TJN-dy-I4W"/>
+                                                <constraint firstAttribute="trailing" secondItem="YgB-UD-hag" secondAttribute="trailing" id="VSJ-xZ-UfL"/>
+                                                <constraint firstItem="YgB-UD-hag" firstAttribute="top" secondItem="9HZ-Ip-79g" secondAttribute="top" constant="3" id="dmm-NS-BZA"/>
+                                                <constraint firstAttribute="bottom" secondItem="YgB-UD-hag" secondAttribute="bottom" constant="3" id="h4c-tI-BvS"/>
                                                 <constraint firstItem="be7-iQ-RiX" firstAttribute="centerY" secondItem="9HZ-Ip-79g" secondAttribute="centerY" id="xxw-Dx-2TU"/>
                                             </constraints>
                                         </tableViewCellContentView>
