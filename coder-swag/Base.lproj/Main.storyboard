@@ -94,17 +94,17 @@
                     <navigationItem key="navigationItem" title="CODER SWAG" id="fko-vQ-V4s"/>
                     <connections>
                         <outlet property="categoryTable" destination="aft-jn-fa6" id="OLg-rv-qMy"/>
-                        <segue destination="v36-Ui-DJa" kind="show" id="4gK-bu-GCJ"/>
+                        <segue destination="v36-Ui-DJa" kind="show" identifier="ProductsVC" id="4gK-bu-GCJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="477.60000000000002" y="132.68365817091455"/>
         </scene>
-        <!--View Controller-->
+        <!--ProductsVC-->
         <scene sceneID="azY-4v-N0c">
             <objects>
-                <viewController id="v36-Ui-DJa" sceneMemberID="viewController">
+                <viewController id="v36-Ui-DJa" customClass="ProductsVC" customModule="coder_swag" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1OO-Hj-4jN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -196,7 +196,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fK2-ib-kSm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1152.8" y="129.98500749625188"/>
+            <point key="canvasLocation" x="1287" y="133"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ll1-oP-LXc">
